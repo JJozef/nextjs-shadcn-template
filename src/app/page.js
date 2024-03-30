@@ -16,7 +16,7 @@ export default function Home() {
         🎉 v1.0.0
       </Badge>
       <h1 className='text-center text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]'>
-        Next.js + shadcn Starter
+        Next.js + shadcn Template
       </h1>
       <p className='max-w-[750px] mx-auto text-center text-lg text-muted-foreground sm:text-xl text-pretty'>
         Begin your project with built-in GitHub Actions, Husky for commits, and
