@@ -1,0 +1,28 @@
+{
+  "name": "Nextjs Shadcn Template",
+  "short_name": "Nextjs Shadcn Template",
+  "description": "This is a starter template for Next.js with shadcn, including GitHub Actions, Husky, Eslint, and Prettier.",
+  "theme_color": "#ffffff",
+  "background_color": "#00000",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og.png",
+      "type": "image/jpeg",
+      "sizes": "1200x630",
+      "form_factor": "wide"
+    }
+  ]
+}
