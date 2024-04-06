@@ -12,7 +12,7 @@
     "lint": "next lint",
     "format": "prettier --write src",
     "lint:fix": "eslint --fix src",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@midudev/tailwind-animations": "^0.0.7",
