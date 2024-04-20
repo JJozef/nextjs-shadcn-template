@@ -13,7 +13,7 @@ export default function Home() {
         className='text-sm hover:scale-105 transition select-none'
         variant='secondary'
       >
-        🎉 v1.0.0
+        🎉 v1.0.1
       </Badge>
       <h1 className='text-center text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]'>
         Next.js + shadcn Template
