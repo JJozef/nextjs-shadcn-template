@@ -74,7 +74,7 @@ export default function RootLayout({ children }) {
         )}
       >
         <AppProvider>
-          <main className='h-full flex flex-col animate-blurred-fade-in'>
+          <main className='flex h-full animate-blurred-fade-in flex-col'>
             <Header />
             {children}
           </main>

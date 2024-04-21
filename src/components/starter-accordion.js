@@ -11,7 +11,7 @@ export function StarterAccordion() {
       <AccordionItem value='item-1'>
         <AccordionTrigger>How to use?</AccordionTrigger>
         <AccordionContent>
-          <ul className='list-disc list-inside pl-4'>
+          <ul className='list-inside list-disc pl-4'>
             <li>
               Go to the GitHub repository and click on the "Use this template".
             </li>
@@ -25,7 +25,7 @@ export function StarterAccordion() {
       <AccordionItem value='item-2'>
         <AccordionTrigger>What does it contain?</AccordionTrigger>
         <AccordionContent>
-          <ul className='list-disc list-inside pl-4'>
+          <ul className='list-inside list-disc pl-4'>
             <li>Next.js 14</li>
             <li>shadcn components</li>
             <li>GitHub Actions</li>
@@ -35,7 +35,7 @@ export function StarterAccordion() {
             <li>TailwindCss</li>
             <li>
               Fonts
-              <ul className='list-decimal list-inside pl-6'>
+              <ul className='list-inside list-decimal pl-6'>
                 <li>Geist Font</li>
                 <li>Inter</li>
               </ul>

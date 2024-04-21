@@ -25,7 +25,7 @@ export default function Header() {
                 className={cn(
                   'transition-colors',
                   segment !== route.segment &&
-                    'hover:text-foreground/80 text-foreground/60'
+                    'text-foreground/60 hover:text-foreground/80'
                 )}
                 key={index}
                 href={route.path}
