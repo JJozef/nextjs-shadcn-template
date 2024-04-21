@@ -1,6 +1,18 @@
 {
   "extends": ["next/core-web-vitals", "./node_modules/standard/eslintrc.json"],
+  "plugins": ["tailwindcss"],
   "rules": {
-    "space-before-function-paren": "off"
+    "space-before-function-paren": "off",
+    "import/no-anonymous-default-export": "off",
+    "multiline-ternary": "off",
+    "@next/next/no-html-link-for-pages": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/classnames-order": "error"
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["cn", "cva"],
+      "config": "tailwind.config.js"
+    }
   }
 }
