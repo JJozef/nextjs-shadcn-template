@@ -11,10 +11,10 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write src",
-    "lint:fix": "eslint --fix src",
-    "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
-    "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
-    "prepare": "husky install"
+    "lint:fix": "next lint --fix",
+    "format:write": "prettier --write \"**/*.{js,tsx,mdx}\" --cache",
+    "format:check": "prettier --check \"**/*.{js,tsx,mdx}\" --cache",
+    "prepare": "husky"
   },
   "dependencies": {
     "@midudev/tailwind-animations": "^0.0.7",
@@ -38,9 +38,9 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@types/react": "^18.2.79",
     "autoprefixer": "^10.4.19",
-    "eslint": "^9.1.0",
+    "eslint": "^8.41.0",
     "eslint-config-next": "14.2.2",
-    "husky": "^8.0.3",
+    "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
